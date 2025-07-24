@@ -17,8 +17,9 @@ import java.util.List;
 @AllArgsConstructor
 public class Room {
     @Id
-    private String id; //Mongo db : unique identifier
+    private String id;//Mongo db : unique identifier
     private String roomId;
-
     private List<Message> messages = new ArrayList<>();
+
+
 }
